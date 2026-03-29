@@ -1,0 +1,46 @@
+{
+  "name": "@demig0d2/skills",
+  "version": "1.1.5",
+  "description": "Claude skill suite by Vivid (Dheelep N) — book writing pipeline, humanizer, skill upgrader, and more",
+  "keywords": [
+    "claude",
+    "claude-skills",
+    "ai-skills",
+    "book-writing",
+    "humanizer",
+    "skill-upgrader",
+    "anthropic",
+    "agent-skills"
+  ],
+  "homepage": "https://github.com/dheelep/demigod-skills#readme",
+  "bugs": {
+    "url": "https://github.com/dheelep/demigod-skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheelep/demigod-skills.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dheelep N (Vivid)",
+    "email": "dheelepsain2+moba@gmail.com"
+  },
+  "main": "cli.js",
+  "bin": {
+    "skills": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "banner.png",
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

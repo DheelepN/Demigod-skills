@@ -1,0 +1,7 @@
+.git/
+.gitignore
+*.test.js
+node_modules/
+**/__pycache__/
+*.pyc
+*.pyo
